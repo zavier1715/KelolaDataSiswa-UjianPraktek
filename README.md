@@ -8,9 +8,9 @@ The Student Data Management System includes the following features:
 
 - CRUD (create, read, update, delete) operations for student data
 - Input form validation
-- Responsive and friendly user interface
+- Friendly user interface
 
-## Technology Stack
+## Tech Stack
 The application is built with the following technologies:
 
 - Laravel framework
@@ -21,8 +21,10 @@ The application is built with the following technologies:
 ## Changelog
 Read the [changelog](https://github.com/dlzcods/kelola-data-siswa/blob/main/CHANGELOG.md)
 
-## Demo Video - v.1.0.6 (2023-05-28)
+## Demo - v.1.0.6 (2023-05-28)
 Here is a little demo
+<br>
+http://keloladatasiswa.wuaze.com/login
 <br>
 
 https://github.com/dlzcods/kelola-data-siswa/assets/73648392/b7556f99-cd9f-4aa4-9f1e-d04c47115b4b
