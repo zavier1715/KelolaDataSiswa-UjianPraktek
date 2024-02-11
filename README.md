@@ -26,6 +26,12 @@ Here is a little demo
 <br>
 http://keloladatasiswa.wuaze.com/login
 <br>
+<br>
+email: fulan@gmail.com
+<br>
+password: 12345678
+
+<br>
 
 https://github.com/dlzcods/kelola-data-siswa/assets/73648392/b7556f99-cd9f-4aa4-9f1e-d04c47115b4b
 
