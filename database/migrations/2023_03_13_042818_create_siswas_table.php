@@ -14,7 +14,7 @@ return new class extends Migration
         Schema::create('data_siswa', function (Blueprint $table) {
             $table->id();
             $table->char('nis')->unique();
-            $table->text('nama')->unique();
+            $table->string('nama', 255)->unique();  // Mengubah text menjadi VARCHAR(255)
             $table->text('kelas');
             $table->char('no_hp');
             $table->text('keterangan');

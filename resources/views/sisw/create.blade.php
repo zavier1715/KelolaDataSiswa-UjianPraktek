@@ -81,12 +81,8 @@
                             <div class="col-10">
                                 <div class="form-floating">
                                     <select class ="form-select" id="kelas" name="kelas" aria-label="Pilih Kelas" required>
-                                        <option>XII RPL 1</option>
-                                        <option>XII RPL 2</option>
-                                        <option>XII MM 1</option>
-                                        <option>XII MM 2</option>
-                                        <option>XII FKK 1</option>
-                                        <option>XII FKK 2</option>
+                                        <option>IX A</option>
+                                        <option>IX B </option>
                                     </select>
                                     <label for="kelas">Pilih Kelas</label>
                                 </div>

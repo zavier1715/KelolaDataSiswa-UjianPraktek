@@ -81,22 +81,18 @@
                                 <select class ="form-select" id="kelas" name="kelas" aria-label="Pilih Kelas" required>
                                     <option value="XII RPL 1" {{ old('kelas', $siswa->kelas) == 'XII RPL 1' ? 'selected' : '' }}>XII RPL 1</option>
                                     <option value="XII RPL 2" {{ old('kelas', $siswa->kelas) == 'XII RPL 2' ? 'selected' : '' }}>XII RPL 2</option>
-                                    <option value="XII MM 1" {{ old('kelas', $siswa->kelas) == 'XII MM 1' ? 'selected' : '' }}>XII MM 1</option>
-                                    <option value="XII MM 2" {{ old('kelas', $siswa->kelas) == 'XII MM 2' ? 'selected' : '' }}>XII MM 2</option>
-                                    <option value="XII FKK 1" {{ old('kelas', $siswa->kelas) == 'XII FKK 1' ? 'selected' : '' }}>XII FKK 1</option>
-                                    <option value="XII FKK 2" {{ old('kelas', $siswa->kelas) == 'XII FKK 2' ? 'selected' : '' }}>XII FKK 2</option>
                                 </select>
                                 <label for="kelas">Pilih Kelas</label>
                          </div>
                         </div>  
                     </div>
 
-                    <div class="row mb-3 mt-4">
+                    {{-- <div class="row mb-3 mt-4">
                         <div class="col-2 mt-2">
                             <label for="no_hp" class="col-form-label">
                                 <strong>No HP</strong>
                             </label>
-                        </div>
+                        </div> --}}
 
                         <div class="col-10">
                             <div class="input-group">

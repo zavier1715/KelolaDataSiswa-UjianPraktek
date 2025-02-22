@@ -47,20 +47,20 @@
                     <a href="{{ route('siswa.create') }}" class="btn btn-success input-btn">Tambah Data</a>
                 </div>
             </div>
-        </form> 
-    </div> 
+        </form>
+    </div>
 
     <div class="container d-flex">
         <div class="card mt-3 mb-4">
 
             <div class="card-header">
-                <h2 class="text-center"><strong>Data Penelusuran Tamatan SMKN 1 Purwokerto</strong></h2>
+                <h2 class="text-center"><strong>Data Kelulusan Siswa</strong></h2>
             </div>
 
             <div class="card-body">
-                <div class="table-responsive mt-3">  
+                <div class="table-responsive mt-3">
                     <table class="table table-striped-columns
-                        table-hover	
+                        table-hover
                         table-bordered
                         align-middle">
 
@@ -77,7 +77,7 @@
                         </thead>
 
                         <tbody class="table-group-divider">
-                            @foreach ($siswa as $siswa_row)        
+                            @foreach ($siswa as $siswa_row)
                             <tr>
                                 <td scope="row" class="text-center">{{ $number + $loop->index }}</td>
                                 <td>{{ $siswa_row->nis }}</td>
@@ -96,8 +96,8 @@
                                     </form>
                                 </td>
                             </tr>
-                            @endforeach  
-       
+                            @endforeach
+
                             <script>
                                 // Adding listener for button hapus
                                 const hapusButtons = document.querySelectorAll('.hapus-siswa-btn');
@@ -120,11 +120,11 @@
                                         }).then((result) => {
                                             // User have to chose before deleting data
                                             // if yes, delete data
-                                            if (result.isConfirmed) {     
+                                            if (result.isConfirmed) {
                                                 const formID = `delete-form-${hapusButton.dataset.id}`;
                                                 const deleteForm = document.querySelector('#'+formID);
                                                 deleteForm.submit();
-                                            } 
+                                            }
                                             // if no, cancel delete notification will appear
                                             else if (result.dismiss === Swal.DismissReason.cancel) {
                                                 Swal.fire({
@@ -132,13 +132,13 @@
                                                     html: "<p>Penghapusan data dibatalkan. <br>Data Anda tetap aman dan tersedia.</p>",
                                                     icon: 'error'
                                                 })
-                                            }        
-                                        });        
+                                            }
+                                        });
                                     });
                                 });
-                            </script>   
+                            </script>
                         </tbody>
-                    </table> 
+                    </table>
                 </div>
             </div>
         </div>
